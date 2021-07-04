@@ -58,3 +58,7 @@ class Player:
             return choices
         except:
             return self
+    def history0(self):
+        return self._part0_history
+    def history6(self):
+        return self._part6_history
