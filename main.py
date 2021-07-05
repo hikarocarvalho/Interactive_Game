@@ -30,7 +30,7 @@ again = True
 while again:
     player = Player()
     os.system('cls' if os.name == 'nt' else 'clear')
-    print(player.history0())
+    print(player.history0)
     choice = input("1 - Caçador. \n2 - Soldado. \n3 - Mercenário. \n4 - Nephilim. \n5 - Fantasma.\nEscolha um personagem: ")
     player.wait(3)
     if valid_choice(choice) == True:
@@ -61,7 +61,7 @@ while again:
                 valid = False
         player.wait(6)
         if sequence[1]==6:
-            print(player.history6())
+            print(player.history6)
             sleep(6)
             valid = False
             player.wait(3)   

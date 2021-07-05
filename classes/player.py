@@ -58,7 +58,9 @@ class Player:
             return choices
         except:
             return self
+    @property
     def history0(self):
         return self._part0_history
+    @property
     def history6(self):
         return self._part6_history
