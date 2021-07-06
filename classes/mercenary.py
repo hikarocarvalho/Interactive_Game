@@ -2,6 +2,7 @@ from classes.player import Player
 class Mercenary(Player):
     def __init__(self,part1="",part2="",part3="",part4="",part5="",part6="",choice1="",choice2="",choice3="",choice4="",choice5=""):
         part1 = """
+        
            """
         part2 = """
             """
