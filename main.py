@@ -1,6 +1,6 @@
 from classes.player import Player
 from classes.hunter import Hunter
-#from classes.fantasma import Fantasma
+from classes.ghost import Ghost
 from classes.mercenary import Mercenary
 from classes.soldier import Soldier
 from classes.nephilim import Nephilim
@@ -30,8 +30,8 @@ def create_player(option):
         return Mercenary()
     elif option == 4:
         return Nephilim()
-    # elif option == 5:
-    #     return Ghost()
+    elif option == 5:
+        return Ghost()
     else:
         return "Valor incorreto"
 again = True
