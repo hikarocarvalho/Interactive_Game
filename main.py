@@ -11,7 +11,7 @@ import pygame
 from pygame.locals import *
 pygame.mixer.init()
 pygame.mixer.music.load('ProjetoBlue_05/background.ogg')
-pygame.mixer.music.play()        # Plays six times, not five!
+pygame.mixer.music.play(-1)        # Plays six times, not five!
 
 
 def valid_choice(option):
