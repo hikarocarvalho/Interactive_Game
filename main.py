@@ -7,6 +7,13 @@ from classes.nephilim import Nephilim
 #from classes.clock import Clock
 from time import sleep
 import os
+import pygame
+from pygame.locals import *
+pygame.mixer.init()
+pygame.mixer.music.load('ProjetoBlue_05/background.ogg')
+pygame.mixer.music.play()        # Plays six times, not five!
+
+
 def valid_choice(option):
     try:
         int(option)
@@ -14,6 +21,7 @@ def valid_choice(option):
     except:
         return False
 def create_player(option):
+
     if option == 1:
         return Hunter()
     elif option == 2:
@@ -68,5 +76,5 @@ while again:
         
     if input("Deseja jogar novamente?").strip(" ").lower().startswith("n"):
         again = False
-
+player.stop()
 
