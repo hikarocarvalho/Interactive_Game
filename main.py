@@ -76,5 +76,5 @@ while again:
         
     if input("Deseja jogar novamente?").strip(" ").lower().startswith("n"):
         again = False
-player.stop()
+
 
