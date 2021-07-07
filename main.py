@@ -43,7 +43,6 @@ while again:
     player.wait(3)
     if valid_choice(choice) == True:
         player = create_player(int(choice))
-        sleep(5)
     else:
         continue
     sequence = list(["",1])
@@ -51,7 +50,7 @@ while again:
     while valid:
         os.system('cls' if os.name == 'nt' else 'clear')
         print(player.sequence_History(sequence[1]))
-        sleep(6)
+        sleep(2)
         choice = input(player.sequence_choices(sequence[1]))
         if valid_choice(choice) == True:
             choice = int(choice)
@@ -67,10 +66,11 @@ while again:
                 sequence = list(player.choices_History5(choice))
             else:
                 valid = False
-        player.wait(6)
+        player.wait(3)
         if sequence[1]==6:
+            print(sequence[0])
             print(player.history6)
-            sleep(6)
+            sleep(10)
             valid = False
             player.wait(3)   
         
