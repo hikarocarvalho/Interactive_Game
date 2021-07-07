@@ -2,22 +2,34 @@ from classes.player import Player
 class Nephilim(Player):
     def __init__(self,part1="",part2="",part3="",part4="",part5="",part6="",choice1="",choice2="",choice3="",choice4="",choice5=""):
         part1 = """
-        Zeican é o seu nome, filho de um nephilim com uma humana, nascido sem poderes, e ensinado ao longo das gerações pelo seu tio a nutrir um ódio mortal por tudo que é sobrenatural. Depois de estar desmaiado você acorda em um hospital no centro da cidade, onde escuta as almas inocentes gritando por socorro.
+            Zeican é o seu nome, filho de um nephilim com uma humana, 
+            nascido sem poderes, e ensinado ao longo das gerações pelo 
+            seu tio a nutrir um ódio mortal por tudo que é sobrenatural. 
+            Depois de estar desmaiado você acorda em um hospital no centro 
+            da cidade, onde escuta as almas inocentes gritando por socorro.
            """
         part2 = """
-        Você passou para o corredor do hospital e começou a gritar (tem alguém ai, onde estou?), involuntariamente você acabou chamando a atenção do demonio. O que você fará?
+            Você passou para o corredor do hospital e começou a gritar 
+            (tem alguém ai, onde estou?), involuntariamente você acabou 
+            chamando a atenção do demonio. O que você fará?
             """
         part3 = """
-        Você abriu a porta e viu um corpo jogado no chão, destrossado. Ao chegar perto viu que era um policial e correu para encontrar a arma dele, uma pistola.  Ao pegar a arma e virar, você percebe que o demonio está atrás de você. (Qual sua reação?).
+            Você abriu a porta e viu um corpo jogado no chão, destrossado.
+            Ao chegar perto viu que era um policial e correu para encontrar
+            a arma dele, uma pistola.  Ao pegar a arma e virar, você percebe
+             que o demonio está atrás de você. (Qual sua reação?).
             """
         part4 = """
-        Graças ao seu tirona cara do demonio ele se afasta 2 passos para trás: (o que fará)
+            Graças ao seu tirona cara do demonio ele se afasta 2 passos para
+             trás: (o que fará)
            """
         part5 = """
-        O demonio continuou recuando após seus tiros, porém sua arma descarregou: (o que fará)
+            O demonio continuou recuando após seus tiros, porém sua arma 
+            descarregou: (o que fará)
             """
         part6 = """
-        O demonio acertou um golpe em você, você não resistiu.   YOU´RE DEAD!!!
+            O demonio acertou um golpe em você, você não resistiu. 
+              YOU´RE DEAD!!!
             """
         
         choice1 = "01 procurar uma saida\n 02 Procurar um sobrevivente.\n03 chamar por seu pai."

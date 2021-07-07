@@ -1,9 +1,9 @@
 from classes.player import Player
 from classes.hunter import Hunter
-# from classes.fantasma import Fantasma
-# from classes.mercenario import Mercenario
-# from classes.soldado import Soldier
-# from classes.nephilim import Nephilim
+#from classes.fantasma import Fantasma
+from classes.mercenary import Mercenary
+from classes.soldier import Soldier
+from classes.nephilim import Nephilim
 #from classes.clock import Clock
 from time import sleep
 import os
@@ -16,13 +16,13 @@ def valid_choice(option):
 def create_player(option):
     if option == 1:
         return Hunter()
-    # elif play == 2:
-    #     return Soldier()   
-    # elif play == 3:
-    #     return Mercenary()
-    # elif play == 4:
-    #     return Nephilim()
-    # elif play == 5:
+    elif option == 2:
+        return Soldier()   
+    elif option == 3:
+        return Mercenary()
+    elif option == 4:
+        return Nephilim()
+    # elif option == 5:
     #     return Ghost()
     else:
         return "Valor incorreto"
