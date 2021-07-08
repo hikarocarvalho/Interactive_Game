@@ -2,7 +2,7 @@ from classes.player import Player
 class Ghost(Player):
     def __init__(self,part1="",part2="",part3="",part4="",part5="",part6="",choice1="",choice2="",choice3="",choice4="",choice5=""):
         part1 = """
-            A Estória de Jamie e Liza.
+            A História de Jamie e Liza.
             Liza é uma mulher de 37 anos e médica, está em missão missionária
             á quase um ano na guerra entre os paises de Tadjiquistão e Quirguistão, 
             e está á procura de seu filho Jamie, desaparecido á dois meses, nas 
