@@ -48,24 +48,30 @@ while again:
     sequence = list(["",1])
     valid = True
     while valid:
-        os.system('cls' if os.name == 'nt' else 'clear')
-        print(player.sequence_History(sequence[1]))
-        sleep(2)
-        choice = input(player.sequence_choices(sequence[1]))
-        if valid_choice(choice) == True:
-            choice = int(choice)
-            if sequence[1] == 1:
-                sequence = list(player.choices_History1(choice))
-            elif sequence[1] == 2:
-                sequence = list(player.choices_History2(choice))
-            elif sequence[1] == 3:
-                sequence = list(player.choices_History3(choice))
-            elif sequence[1] == 4:
-                sequence = list(player.choices_History4(choice))
-            elif sequence[1] == 5:
-                sequence = list(player.choices_History5(choice))
-            else:
-                valid = False
+        validation = True
+        while validation:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print(player.sequence_History(sequence[1]))
+            sleep(2)
+            choice = input(player.sequence_choices(sequence[1]))
+            if valid_choice(choice) == True:
+                choice = int(choice)
+                if choice > 3 or choice <1:
+                    continue
+                else:
+                    validation = False
+                    if sequence[1] == 1:
+                        sequence = list(player.choices_History1(choice))
+                    elif sequence[1] == 2:
+                        sequence = list(player.choices_History2(choice))
+                    elif sequence[1] == 3:
+                        sequence = list(player.choices_History3(choice))
+                    elif sequence[1] == 4:
+                        sequence = list(player.choices_History4(choice))
+                    elif sequence[1] == 5:
+                        sequence = list(player.choices_History5(choice))
+                    else:
+                        valid = False
         player.wait(3)
         if sequence[1]==6:
             print(sequence[0])

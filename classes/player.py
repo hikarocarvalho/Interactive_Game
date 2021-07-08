@@ -1,5 +1,6 @@
 from time import sleep
 import os
+
 class Player:
     def __init__(self,part1="",part2="",part3="",part4="",part5="",part6="",choice1="",choice2="",choice3="",choice4="",choice5=""):
         #here are all historys parts

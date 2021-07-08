@@ -41,7 +41,7 @@ class Soldier(Player):
         choice5 = "01- corre para a porta a sua frente.\n02- tenta acertar outro golpe.\n03- se abaixa tentando evitar sua morte.\n"
         super().__init__(part1,part2,part3,part4,part5,part6,choice1,choice2,choice3,choice4,choice5)
     def __str__(self):
-        return ""
+        return "valor incorreto"
     def choices_History1(self,choice):
         try:
             int(choice)

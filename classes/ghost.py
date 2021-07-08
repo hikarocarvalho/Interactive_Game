@@ -67,7 +67,7 @@ class Ghost(Player):
         
 
 
-        choice1 = "1- procurar a Lisa!\n2- procurar o demônio? Antes que ele a encontre!\n3- encontrar uma saída para a Liza fugir.\n"
+        choice1 = "1- procurar a Liza!\n2- procurar o demônio? Antes que ele a encontre!\n3- encontrar uma saída para a Liza fugir.\n"
         choice2 = "1- você vai até a sua mãe rapidamente e tenta tocá-la.\n2- grita bem alto para sua mãe te notar.\n3- tenta movimentar a cadeira perto de você, para chamar atenção de sua mãe.\n"
         choice3 = "1- Tenta impedir que sua mãe avance, empurrando ela.\n2- Você tenta assustar sua mãe jogando a cadeira contra a parede.\n3 -Tenta mais uma vez falar com sua mãe.\n"
         choice4 = "1- Tenta tirar sua mãe do caminho do demônio.\n2- Tenta barrar o demônio com seu corpo.\n3- Tenta possuir o demônio.\n"
