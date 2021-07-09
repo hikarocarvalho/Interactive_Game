@@ -4,7 +4,7 @@ from classes.ghost import Ghost
 from classes.mercenary import Mercenary
 from classes.soldier import Soldier
 from classes.nephilim import Nephilim
-#from classes.clock import Clock
+from classes.clock import Clock
 from time import sleep
 import os
 import pygame
