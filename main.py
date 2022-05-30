@@ -10,7 +10,7 @@ import os
 import pygame
 from pygame.locals import *
 pygame.mixer.init()
-pygame.mixer.music.load('ProjetoBlue_05/background.ogg')
+pygame.mixer.music.load('./background.ogg')
 pygame.mixer.music.play(-1)        # Plays six times, not five!
 
 
