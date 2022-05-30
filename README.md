@@ -1,7 +1,6 @@
 # ProjetoBlue_05
 ## Project - Terror Interactive Game
-<detail>
-    <sumary>English Description</sumary>
+## `English Description`
     
 ### About the project
 
@@ -19,10 +18,10 @@
 python3 main.py
 ```
 
-<detail>
+#
 
-<detail>
-    <sumary>Descrição Em Português</sumary>
+
+## `Descrição Em Português`
 
 ### Sobre o projeto
 
@@ -39,5 +38,3 @@ python3 main.py
 ```console
 python3 main.py
 ```
-
-<detail>
